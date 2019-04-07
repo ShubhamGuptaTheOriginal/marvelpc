@@ -21,5 +21,6 @@ urlpatterns = [
     url(r'^$',include('home.urls')),
     url(r'^home/',include('home.urls')),
     url(r'^product/',include('products.urls')),
+    url(r'^user/',include('user.urls')),
 
 ]
