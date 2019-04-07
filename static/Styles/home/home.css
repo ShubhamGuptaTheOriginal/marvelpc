@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
+body {
+  font-family: 'Roboto Condensed',sans-serif;;
+  margin:auto;
+}
+
+#nav1 {
+
+    /* background: #077; */
+    background: black;
+    /* border: 2px solid white; */
+
+}
+#nav1 ul {
+  display: inline-block;
+  list-style: none;
+  /* width:130px; */
+  /* margin:0px; */
+  padding: 0px;
+}
+#nav1 li {
+    /* float:left; */
+    /* width:40px; */
+    display: inline-block;
+    padding: 10px;
+    font-weight:bold;
+   /* border:1px solid black; */
+}
+#cart {
+  float:right;
+    margin-top:5px;
+    padding:10px;
+    font-size: 40px;
+}
+#sign {
+  /* display: inline-block; */
+  float:right;
+  margin-top:26px;
+}
+#nav1 a {
+  color:#e23333;
+  text-decoration: none;
+
+}
+#bg{
+  background-image: linear-gradient(rgba(133, 133, 133, 0.685),rgba(133, 133, 133, 0.685)) ,url("/static/Images/balli.jpg");
+  height: 91vh;
+  width: 100%;
+}
+.mh{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size:80px;
+  color: rgb(51, 49, 150);
+  background-attachment: fixed;
+  font-family: 'Luckiest Guy', cursive;
+}

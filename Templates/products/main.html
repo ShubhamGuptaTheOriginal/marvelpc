@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+{% extends "base.html" %}
+
+{% load staticfiles %}
+
+{% block base_block %}
+
+<link rel="stylesheet" href="{% static '/Styles/products/products.css' %}">
+
+<section class="main-div">
+        <article class="processor">
+
+          <div class="article-image" style="background:url('/static/Images/processor1.webp')" ></div>
+          <br/>
+          <a href="processor.html">PROCESSOR</a>
+          </article>
+            <article class="ram">
+             <div class="article-image" style="background:url('{% static '/Images/RAM.jpg' %}')" ></div>
+            <br/>
+            <a href="#">RAM</a>
+          </article>
+        <article class="card">
+
+           <div class="article-image" style="background:url('/static/Images/graphiccard.jpg')" ></div>
+          <br/>
+          <a href="#">GRAPHICCARD</a>
+        </article>
+        <article class="cpu">
+
+          <div class="article-image" style="background:url('/static/Images/cpu1.jpg')" ></div>
+          <br/>
+          <a href="#">CABINET</a>
+        </article>
+        <article class="harddisk">
+
+          <div class="article-image" style="background:url('/static/Images/harddisk.webp')" ></div>
+          <br/>
+          <a href="#">HARD DISK</a>
+        </article>
+        <article class="motherboard">
+
+          <div class="article-image" style="background:url('/static/Images/motherboard.webp')" ></div>
+          <br/>
+          <a href="#">MOTHERBOARD</a>
+        </article>
+
+      </section>
+
+
+{% endblock %}

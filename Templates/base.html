@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'Styles\home\home.css' %}"/>
+    
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+</head>
+<body>
+  <nav id="nav1">
+    <ul>
+      <li><a href="/home">Home</a></li>
+      <li><a href="/product">Products</a></li>
+      <li> <a href="#">Support</a></li>
+    </ul>
+    <a href="#"><ion-icon name="cart" id="cart"></ion-icon></a>
+    <div id="sign" >
+      <a href="#">SIGN UP | </a>
+      <a href="#">LOGIN</a>
+    </div>
+  </nav>
+
+  {% block base_block %}
+
+        <!-- block of base html -->
+
+  {% endblock %}
+      
+</body>
+
+</html>
