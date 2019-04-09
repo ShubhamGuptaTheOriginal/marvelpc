@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS Products (
   Types VARCHAR(30) NOT NULL, 
   Specs VARCHAR(200),
   Description VARCHAR(100),
+  Company VARCHAR(50),
   PRIMARY KEY (Product_ID)
 );
 
